@@ -9,6 +9,7 @@ defmodule Farsight.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       test_paths: ["lib"],
+      license: "Apache-2.0",
       # Docs
       name: "Farsight",
       source_url: "https://github.com/reetou/farsight",
