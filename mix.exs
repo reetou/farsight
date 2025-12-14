@@ -8,6 +8,7 @@ defmodule Farsight.MixProject do
       elixir: "~> 1.19",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+      test_paths: ["lib"],
       # Docs
       name: "Farsight",
       source_url: "https://github.com/reetou/farsight",
